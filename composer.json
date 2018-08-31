@@ -1,0 +1,25 @@
+{
+    "name": "kolah/php-graphql-client-generator-cli",
+    "description": "CLI for PHP GraphQL client generator library",
+    "type": "project",
+    "require": {
+        "kolah/php-graphql-client-base": "^1.0",
+        "kolah/php-graphql-client-generator": "^1.0",
+        "symfony/console": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kolah\\GraphQL\\": "src/GraphQL"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krzysztof Kolasiak",
+            "email": "krzysztof.kolasiak@docplanner.com"
+        }
+    ],
+    "bin": [
+        "bin/gql2php"
+    ]
+}
