@@ -32,7 +32,7 @@ mv bin/gql2php.phar bin/gql2php.phar.tmp
 git checkout -b gh-pages deploy/gh-pages
 mv bin/gql2php.phar.tmp bin/gql2php.phar
 sha1sum bin/gql2php.phar > bin/gql2php.phar.version
-git add bin/gql2php.phar bin/gql2php.phar.version
+git add bin/gql2php.phar bin/gql2php.phar.version bin/gql2php.phar.pubkey
 
 # Commit and push:
 git commit -m 'Rebuilt phar'
