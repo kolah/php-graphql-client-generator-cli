@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Preparing release"
 # Unpack secrets; -C ensures they unpack *in* the .travis directory
 tar xvf .travis/secrets.tar -C .travis
 
