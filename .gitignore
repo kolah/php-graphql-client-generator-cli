@@ -1,6 +1,8 @@
 /vendor/
 /composer.lock
 .travis/phar-private.pem
+.travis/deploy-key.pem
 bin/gql2php.phar
 bin/gql2php.phar.pubkey
 bin/gql2php.phar.version
+.travis/secrets.tar
