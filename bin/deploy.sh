@@ -31,7 +31,7 @@ mv bin/gql2php.phar bin/gql2php.phar.tmp
 # Checkout gh-pages and add PHAR file and version:
 git checkout -b gh-pages deploy/gh-pages
 mv bin/gql2php.phar.tmp bin/gql2php.phar
-sha1sum bin/gql2php.phar > cbin/gql2php.phar.version
+sha1sum bin/gql2php.phar > bin/gql2php.phar.version
 git add bin/gql2php.phar bin/gql2php.phar.version
 
 # Commit and push:
