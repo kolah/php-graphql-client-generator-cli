@@ -11,8 +11,8 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class UpdateCommand extends Command
 {
-    const PHAR_URL = 'https://kolah.github.io/php-graphql-client-generator-cli/gql2php.phar';
-    const VERSION_URL = 'https://kolah.github.io/php-graphql-client-generator-cli/gql2php.phar.version';
+    const PHAR_URL = 'https://kolah.github.io/php-graphql-client-generator-cli/bin/gql2php.phar';
+    const VERSION_URL = 'https://kolah.github.io/php-graphql-client-generator-cli/bin/gql2php.phar.version';
     const OPTION_ROLLBACK = 'rollback';
 
     protected function configure()
