@@ -5,7 +5,8 @@
     "require": {
         "kolah/php-graphql-client-base": "^1.0",
         "kolah/php-graphql-client-generator": "^1.0",
-        "symfony/console": "^4.1"
+        "symfony/console": "^4.1",
+        "padraic/phar-updater": "^1.0"
     },
     "autoload": {
         "psr-4": {

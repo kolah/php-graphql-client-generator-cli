@@ -75,10 +75,12 @@ function loadComposerClassloader($dir = null, $skip = 0)
 }
 
 use Kolah\GraphQL\Command\GenerateCommand;
+use Kolah\GraphQL\Command\UpdateCommand;
 use Symfony\Component\Console\Application;
 
 $console = new Application('gql2php', '@package_version@');
 
 $console->add(new GenerateCommand());
+$console->add(new UpdateCommand());
 
 $console->run();
