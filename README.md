@@ -43,3 +43,5 @@ In order to use generated code, the base client is required as a dependency:
 This application provides self-update mechanism. To check for updates and automatically update the tool, use `gql2php update`. In case of finding a newer version, the old one is backed up.
 
 You can rollback to the previous version, if there is one stored using `gql2php update --rollback`.
+
+> NOTE: For composer global install, use `composer global update kolah/php-graphql-client-generator-cli`
