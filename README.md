@@ -4,13 +4,22 @@ This is CLI for PHP GraphQL client generator, which generates a strongly typed P
 
 At the time of creating this tool there was no decent way to utilize GraphQL APIs from PHP.
 
+## Requirements
+This tool requires PHP 7.1
+
 ## Installation
 
-#### Composer
+#### PHAR (recommended)
+To run installer and download PHAR with its signature file to current directory:
+
+`curl -LSs https://kolah.github.io/php-graphql-client-generator-cli/installer.php | php`
+
+> NOTE: If you want to rename command in order to get rid of `.phar` extension or move the tool to other directory, please note that PHAR binary is signed and requires `.pubkey` file to work, so you will need to rename signature file accordingly, fe. `mv gql2php.phar gql2php && mv gql2php.phar.pubkey gql2php.pubkey` 
+
+#### Composer (globally)
 
 `composer global require kolah/php-graphql-client-generator-cli`
 
- 
 
 ## Usage
 In order to generate client, use `gql2php generate`. 
