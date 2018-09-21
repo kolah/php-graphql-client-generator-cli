@@ -1,11 +1,13 @@
 # php-graphql-client-generator-cli
 ## What is this?
-This is CLI for PHP GraphQL client generator, which generates a strongly typed PHP GraphQL client out of the GraphQL schema file.
+This is CLI for [PHP GraphQL client generator](https://github.com/kolah/php-graphql-client-generator), which generates a strongly typed PHP GraphQL client out of the GraphQL schema file.
 
 At the time of creating this tool there was no decent way to utilize GraphQL APIs from PHP.
 
+This tool is based on [camuthig/php-graphql-client-generator](https://github.com/camuthig/php-graphql-client-generator)
+
 ## Requirements
-This tool requires PHP 7.1
+* PHP 7.1
 
 ## Installation
 
