@@ -24,6 +24,8 @@ To run installer and download PHAR with its signature file to current directory:
 
 
 ## Usage
+
+### Client generation
 In order to generate client, use `gql2php generate`. 
 The `generate` command expects some required parameters:
 * `-s` or `--schema`: path to GraphQL schema file, fe.: `./schema.graphqls`
@@ -37,3 +39,7 @@ In order to use generated code, the base client is required as a dependency:
 
 `composer require kolah/php-graphql-client-base`
 
+### Self-update (PHAR version)
+This application provides self-update mechanism. To check for updates and automatically update the tool, use `gql2php update`. In case of finding a newer version, the old one is backed up.
+
+You can rollback to the previous version, if there is one stored using `gql2php update --rollback`.
