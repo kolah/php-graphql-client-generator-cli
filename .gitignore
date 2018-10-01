@@ -1,5 +1,4 @@
 /vendor/
-/composer.lock
 .travis/phar-private.pem
 .travis/deploy-key.pem
 bin/gql2php.phar
